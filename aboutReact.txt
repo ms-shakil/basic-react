@@ -1,0 +1,15 @@
+// react open source ....for makeing user interface
+// component reuseable -----> like function
+
+
+.How to create  vite  react app 
+1.npm create vite@latest
+2. Select project name
+3. Select framework..    like react/
+4. Select variant …  like javascript/ typescrpt
+5.  CD …………..project name
+6. Npm install
+7  run npm dev
+
+// another aways
+1.npx create-react-app ./ app_name        // . for create app main folder ... with name create app under main folder
