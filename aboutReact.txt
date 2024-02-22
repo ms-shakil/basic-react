@@ -9,7 +9,29 @@
 4. Select variant …  like javascript/ typescrpt
 5.  CD …………..project name
 6. Npm install
-7  run npm dev
+7  run npm dev / npx vite
+8. production er jnno project build command 
+-> npm run build /npx vite build
 
 // another aways
 1.npx create-react-app ./ app_name        // . for create app main folder ... with name create app under main folder
+
+// component -> like function .....write component on diffenent jsx file
+
+
+// about JSX
+ 1. jsx need  return singal parent element
+ 2. we can write javascript directly under {} this block
+ 3. need to close every tag singlaly like <img/>, <br/>
+ 4. don't  use class name like class="myClass" , write like this className ="myClass"
+ 5. wite html attribute in camalcase......onclik , onsubmit.....this will have onClick ,, onSubmit
+ 6. jsx can't suport in line css ....if we write inline css we need object to write css
+ like -> stye={
+    {
+        colour:'red',
+        height:343px
+    }
+  }
+
+
+//An immediately invoked function
