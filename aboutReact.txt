@@ -1,7 +1,6 @@
 // react open source ....for makeing user interface
 // component reuseable -----> like function
-
-
+// react works by component base architucture
 .How to create  vite  react app 
 1.npm create vite@latest
 2. Select project name
@@ -35,3 +34,9 @@
 
 
 //An immediately invoked function
+
+
+//Props
+-> passing data one component to other component
+->passed uni deractional flow --- like take data parent to child 
+
