@@ -40,3 +40,6 @@
 -> passing data one component to other component
 ->passed uni deractional flow --- like take data parent to child 
 
+// React Hooks
+-> react hooks bultin fither of react -> thats have many methods
+-> Methods -- useRef() ,
