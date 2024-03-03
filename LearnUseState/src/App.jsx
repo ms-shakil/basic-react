@@ -1,5 +1,6 @@
 import { useState } from "react"
 import UseStateforObj from "./component/UseStateforObj"
+import UseStateforArr from "./component/UseStateforArr";
 
 
 function App() {
@@ -16,6 +17,10 @@ function App() {
      <h1>use object in useState</h1>
     
     <UseStateforObj/>
+
+    <h1>use state works in aray </h1>
+
+    <UseStateforArr/>
     
 
 
