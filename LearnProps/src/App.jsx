@@ -1,6 +1,8 @@
 import Singaldata from "./components/Singaldata"
 import PropsObject from './components/PropsObject';
 import PropsFunction from "./components/PropsFunction";
+import PropsArray from "./components/PropsArray";
+import PageRefreshCont from "./components/PageRefreshCont";
 
 function App() {
    const StudentInfo ={
@@ -11,7 +13,7 @@ function App() {
      phone :"01700979731",
      district:"Comilla"
    }
-
+   const my_arr =["Sajeen","Amran","Mahee","Hridoy","me"]
    const ClickBtn =() =>{
      alert("Hello React Props")
    }
@@ -21,6 +23,9 @@ function App() {
       <PropsObject data ={StudentInfo} />
       
       <PropsFunction btnFun ={ClickBtn } />
+
+      <PropsArray Array={my_arr}/>
+      <PageRefreshCont/>
       
     </>
   )
